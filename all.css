@@ -45,7 +45,10 @@ p{
     font-size: 40px;
     color: blue;
 }
-
+.title2{
+    font-size: 40px;
+    color: red;
+}
 /*html 標籤 
 不一定要放在鏈結處 
 可以隨意，以連結為例*/
