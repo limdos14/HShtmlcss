@@ -1,0 +1,129 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*標籤選擇器
+h1{
+    color: blue;
+    font-size: 30px;
+}
+p{
+    color: #f700ff;
+    font-size: 14px;
+}
+*/
+
+.title{
+    font-size: 40px;
+    color: blue;
+}
+
+/*html 標籤 
+不一定要放在鏈結處 
+可以隨意，以連結為例*/
+/*滑過去的顏色*/
+a:hover{
+    color: #1395e0;
+    font-size: 20px;
+}
+/*按下去未放開的顏色*/
+a:active{
+    color: blue;
+}
+
+/*類別選擇器
+ex 客製化
+css前面記得要+. 不然會變成標籤選擇器
+*/
+.style1{
+    color: blueviolet;
+}
+.style2{
+    font-size: 33px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    /*字體*/
+    font-size: 16px;
+    /*大小*/
+    line-height: 2;
+    /*行距* 可以寫倍數(依照字體大小的行距 也可以寫px的*/
+    text-align: left;/*靠左*/
+    text-indent: 32px;/*首行空2格*/
+    text-decoration: underline;/*
+    下底線
+    line-through刪除線 等等*/
+    /*
+    letter-spacing: 2px; 
+    此段字與字之間的距離
+    */
+}
+.test{
+    border-left: 1px dotted blue;
+    border-bottom: 2px dashed #1395e0;
+    /*
+    整段外框>border
+    整段的左邊>border-left
+    底部>border-bottom
+    
+    top 上
+    right 右
+
+    線條粗細
+    樣式
+     solid實心
+     dashed虛線
+     dotted圓點
+    顏色*/
+}
+#id{
+    color: blueviolet;
+}
+/*id的css寫法用# */
+
+/*
+html標籤1分
+class 10分
+id 100分
+html style 1000分
+!important 1w分
+同樣的樣式的時候，後面蓋過前面
+id>class>html標籤 所以一定會覆蓋過去
+權重
+*/
+important{
+    color: yellow !important;/*這個意思是說直接強制蓋過去*/
+}
+.box1{
+    padding-left: 30px;/*把div盒子內推，向內左推30px才有文章*/
+    margin: 30px;/*用外面把div盒子全部各推30px，簡易來說是把div向外推30px空白*/
+}
