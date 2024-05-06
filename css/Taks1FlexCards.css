@@ -1,0 +1,213 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* * {
+	outline: 1px solid #000;
+}  */
+
+.item {
+	/* width: 80%;
+    padding: 10px;
+     */
+	width: Fixed (1920px);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.work-lg {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.box {
+	width: 636px;
+	height: 538px;
+	margin: 40px 0 40px 0;
+}
+
+.photo {
+	border-radius: 15px;
+}
+
+.test {
+	height: 122px;
+	padding: 0 16px 0 16px;
+}
+.word{
+	gap: 8px;
+}
+.box,
+.test,
+.word {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	/* gap: 16px; */
+}
+
+.work-lg h2 {
+	font-size: 28px;
+	color: #3B3B3B;
+	font-family: bold;
+	line-height: 33.6px;
+}
+
+.work-lg p {
+	line-height: 24px;
+	font-size: 16px;
+	color: #919191;
+}
+
+.tags {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/* padding:4px, 12px, 4px, 12px; */
+	gap: 16px;
+}
+.tag{
+	font-size: 16px;
+	padding: 8px 14px;
+	background: #F1F1F1;
+	border-radius: 15px;
+	/*圓角尺寸*/
+}
+
+.tag a:hover,
+.tag a:visited,
+.tag a:link,
+.tag a:active {
+	text-decoration: none;
+	color: #3B3B3B;
+}
