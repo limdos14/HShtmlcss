@@ -133,30 +133,30 @@ table {
 	outline: 1px solid #000;
 }  */
 
-.item {
-	/* width: 80%;
-    padding: 10px;
-     */
-	width: Fixed (1920px);
+.contain {
+	max-width: 1296px;
 	margin-left: auto;
 	margin-right: auto;
+	font-family: "Noto Sans TC", sans-serif;
+
 }
 
 .work-lg {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 	flex-wrap: wrap;
 }
 
-.box {
+.card {
 	width: 636px;
 	height: 538px;
 	margin: 40px 0 40px 0;
 }
 
 .photo {
-	border-radius: 15px;
+	border-radius: 8px;
+	border: 1px solid #F1F1F1;
 }
 
 .test {
@@ -166,24 +166,24 @@ table {
 .word{
 	gap: 8px;
 }
-.box,
+.card,
 .test,
 .word {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: flex-start;
-	/* gap: 16px; */
 }
 
-.work-lg h2 {
+.word h2 {
 	font-size: 28px;
+	line-height: 33.6px;
 	color: #3B3B3B;
 	font-family: bold;
-	line-height: 33.6px;
+
 }
 
-.work-lg p {
+.word p {
 	line-height: 24px;
 	font-size: 16px;
 	color: #919191;
@@ -192,22 +192,21 @@ table {
 .tags {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	/* padding:4px, 12px, 4px, 12px; */
 	gap: 16px;
 }
-.tag{
+.tags li{
 	font-size: 16px;
-	padding: 8px 14px;
+	line-height:24px;
 	background: #F1F1F1;
-	border-radius: 15px;
-	/*圓角尺寸*/
+	border-radius: 16px;/*圓角尺寸*/
+	padding:4px 12px 4px 12px;
+	
 }
 
-.tag a:hover,
-.tag a:visited,
-.tag a:link,
-.tag a:active {
+.tags a:hover,
+.tags a:visited,
+.tags a:link,
+.tags a:active {
 	text-decoration: none;
 	color: #3B3B3B;
 }
