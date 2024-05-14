@@ -135,10 +135,8 @@ table {
 
 .contain {
 	max-width: 1296px;
-	margin-left: auto;
-	margin-right: auto;
+	margin:0 auto;
 	font-family: "Noto Sans TC", sans-serif;
-
 }
 
 .work-lg {
@@ -155,6 +153,8 @@ table {
 }
 
 .photo {
+	width: 636px;
+	height: 400px;
 	border-radius: 8px;
 	border: 1px solid #F1F1F1;
 }
@@ -179,7 +179,6 @@ table {
 	font-size: 28px;
 	line-height: 33.6px;
 	color: #3B3B3B;
-
 }
 
 .word p {
