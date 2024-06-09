@@ -1,0 +1,26 @@
+.pagenation{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+    li{
+        .active{
+            color: #FFFFFF;
+            background-color: #1E1E1E;
+        }
+        
+        a{
+            font-size: 24px;
+            line-height: 36px;
+            padding: 2px 13px;
+            border-radius: 4px;
+            display: block;
+            transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+        }
+        a:hover{
+            color: #FFFFFF;
+            background-color: #1E1E1E;
+            
+        }
+    }
+}
